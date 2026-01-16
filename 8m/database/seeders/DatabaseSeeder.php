@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         ]); */
 
         $this->call([
-            ComentariosSeeder::class
+            BulosSeeder::class
         ]);
     }
 }

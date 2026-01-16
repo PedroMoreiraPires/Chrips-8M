@@ -5,11 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class Comentario extends Model
+class Bulo extends Model
 {
     protected $fillable = [
         'user_id',
-        'contenido'
+        'texto',
+        'texto_desmentido',
     ];
     
     public function user(): BelongsTo

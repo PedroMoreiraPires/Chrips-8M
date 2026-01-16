@@ -46,8 +46,8 @@ class User extends Authenticatable
         ];
     }
 
-    public function comentarios()
+    public function bulos()
     {
-        return $this->hasMany(Comentario::class);
+        return $this->hasMany(Bulo::class);
     }
 }

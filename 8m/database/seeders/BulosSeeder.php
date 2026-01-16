@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Comentario;
+use App\Models\Bulo;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
-class ComentariosSeeder extends Seeder
+class BulosSeeder extends Seeder
 {
     /**
      * Run the database seeds.
